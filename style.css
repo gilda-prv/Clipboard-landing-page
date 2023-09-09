@@ -11,6 +11,10 @@ body {
   background-image: url(images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: contain;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
 }
 /* header */
 .head-text {
@@ -59,12 +63,59 @@ body {
   cursor: pointer;
   box-shadow: 1px 1px 2px 2px rgb(70, 84, 188);
 }
+/* maintext */
+.maintext {
+  margin-top: 140px;
+}
+.maintext h2 {
+  color: hsl(210, 10%, 33%);
+}
+.maintext p {
+  margin-top: 20px;
+  color: hsl(201, 11%, 66%);
+  line-height: 2;
+}
+/* computersec */
+.computersec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+}
+.com-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  gap: 80px;
+}
+.com-text h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.com-text p {
+  margin-top: 10px;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+}
+/* device */
+.device {
+  margin-top: 80px;
+}
+.device h2 {
+  font-size: 30px;
+  color: hsl(210, 10%, 33%);
+}
+.device p {
+  margin-top: 20px;
+  color: hsl(201, 11%, 66%);
+  line-height: 2;
+  font-size: 17px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
   position: absolute;
   bottom: 20px;
-  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
