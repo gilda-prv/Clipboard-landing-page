@@ -23,7 +23,6 @@ Users should be able to:
 ### Screenshot
 
 ![](/design/desktop-design.jpg)
-![](/design/active-states.jpg)
 ![](/design/mobile-design.jpg)
 
 ## My process
