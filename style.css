@@ -176,7 +176,6 @@ body {
 .footer-text {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   line-height: 2;
   text-align: left;
 }
@@ -200,4 +199,89 @@ body {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
   margin-right: 5px;
+}
+@media only screen and (max-width: 1242px) {
+  .head-text h1 {
+    padding: 0 90px;
+    line-height: 1.2;
+    color: hsl(210, 10%, 33%);
+  }
+  .head-text p {
+    font-size: 18px;
+    padding: 0 95px;
+    margin-top: 15px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .links button {
+    padding: 13px 90px;
+  }
+  .maintext h2 {
+    padding: 0 100px;
+  }
+  .maintext p {
+    padding: 0 85px;
+  }
+  .device img {
+    width: 400px;
+  }
+  .devicetxt h2 {
+    padding: 0 80px;
+  }
+  .devicetxt p {
+    padding: 0 90px;
+  }
+  .computersec img {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .computersec {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .com-text {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 70px 70px;
+  }
+  .main-text h1 {
+    padding: 0 105px;
+  }
+  .main-text p {
+    padding: 0 90px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+  }
+  .logo {
+    margin-top: 50px;
+  }
+  .footer-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .footer-text a {
+    margin: 0 auto;
+  }
+  .icon {
+    margin-bottom: 20px;
+  }
 }
